@@ -1,0 +1,9 @@
+Just follow these three simple steps:
+
+
+1)- Drag and drop a view on a view controller.
+2)- Go to the identity inspector from the right hand menu and write in class "kevTutorialView"
+3)-  Create an Iboutlet and write you images name u want to display in arrTutorialImage
+     @IBOutlet   var kevView : kevTutorialView!
+    kevView.arrTutorialImage = ["imageOne","imageTwo","imageThree","imageFour","imageFive"]
+
